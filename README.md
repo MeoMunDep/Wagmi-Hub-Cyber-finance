@@ -4,7 +4,6 @@ Welcome to the bot setup guide! Follow the steps below to install and configure 
 
 > 📱 **For Mobile Users (Termux):** [View the guide here](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
-
 ---
 
 ## Table of Contents
@@ -42,7 +41,7 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
    Open your terminal or command prompt, navigate to the folder where the bot files are located, and run:
 
    ```bash
-   npm install axios colors https-proxy-agent socks-proxy-agent 
+   npm install axios colors https-proxy-agent socks-proxy-agent
    ```
 
 3. **Prepare Configuration Files:**
@@ -60,7 +59,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "howManyEggBoost": 1,
   "howManyHammerBoost": 1,
   "doTasks": true,
@@ -69,7 +67,6 @@ This file controls the bot’s behavior. Below is an example configuration:
 ```
 
 - **Fields Explained:**
-  - `country_time`: Time zone setting (e.g., "en-US").
   - `delayEachAccount`: Random delay range (in seconds) between accounts.
   - `countdown`: Time (in seconds) to restart all accounts.
   - `limit`: Number of accounts to run simultaneously.
@@ -125,7 +122,7 @@ _Note: each row for each account_
 1. Navigate to the folder containing the bot files:
 
    ```bash
-   cd /path/to/bot-folder
+   cd /path/to/wagmi-hub-cyber-finance
    ```
 
 2. Run the bot using the following command:

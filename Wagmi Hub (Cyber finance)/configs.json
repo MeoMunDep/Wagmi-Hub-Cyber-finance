@@ -1,9 +1,0 @@
-{
-  "limit": 100,
-  "countdown": 300,
-  "country_time": "en-US",
-  "howManyEggBoost": 1,
-  "howManyHammerBoost": 1,
-  "doTasks": true,
-  "delayEachAccount": [5, 8]
-}

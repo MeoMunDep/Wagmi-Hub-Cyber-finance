@@ -35,7 +35,7 @@ create_default_configs() {
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
+  "connectKucoinId": true,
   "howManyEggBoost": 1,
   "howManyHammerBoost": 1,
   "doTasks": true,
@@ -60,7 +60,7 @@ fi
 
 check_configs
 
-for file in datas.txt proxies.txt; do
+for file in datas.txt kucoin_ids.txt proxies.txt; do
     if [ ! -f "$file" ]; then
         touch "$file"
         print_green "Created $file"
@@ -71,7 +71,7 @@ print_green "Configuration files have been checked."
 
 print_yellow "Checking dependencies..."
 cd "$MODULES_DIR"
-npm install user-agents axios colors https-proxy-agent socks-proxy-agent
+npm install user-agents axios meo-forkcy-colors meo-forkcy-utils https-proxy-agent socks-proxy-agent
 cd - > /dev/null
 print_green "Dependencies installation completed!"
 

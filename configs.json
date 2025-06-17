@@ -1,0 +1,9 @@
+{
+  "limit": 100,
+  "countdown": 300,
+  "howManyEggBoost": 1,
+  "howManyHammerBoost": 1,
+  "doTasks": true,
+  "connectKucoinId": true,
+  "delayEachAccount": [5, 8]
+}
